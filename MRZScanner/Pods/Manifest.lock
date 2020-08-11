@@ -1,0 +1,24 @@
+PODS:
+  - QKMRZParser (1.0.1)
+  - QKMRZScanner (2.1.2):
+    - QKMRZParser
+    - SwiftyTesseract
+  - SwiftyTesseract (3.1.2)
+
+DEPENDENCIES:
+  - QKMRZScanner
+
+SPEC REPOS:
+  trunk:
+    - QKMRZParser
+    - QKMRZScanner
+    - SwiftyTesseract
+
+SPEC CHECKSUMS:
+  QKMRZParser: 07921dbffa7e4064406113731bc0f1f5e6210bce
+  QKMRZScanner: aaf269e766c4a51526034e7c4e695078b7dfeb0e
+  SwiftyTesseract: d898472f63355f8bf023cbab2c80ceda0805a40c
+
+PODFILE CHECKSUM: 670b4f5f8b2412c5ca0c609c2ac16d860182e71a
+
+COCOAPODS: 1.9.3
